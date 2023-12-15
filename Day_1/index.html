@@ -32,9 +32,98 @@
       </ul>
 
       <figure>
-        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+          alt="A slice of lasagna on a plate."
+        />
         <figcaption>Cats <em>love</em> lasagna</figcaption>
       </figure>
     </section>
+
+    <section>
+      <h1>Top 3 Thing Cat Hate</h1>
+      <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+      </ol>
+      <figure>
+        <img
+          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+          alt="Five cats looking around a field."
+        />
+        <figcaption>Cat <strong>Hate other Cats</strong></figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Cats Forms</h2>
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>
+          <legend>In your Cat an indoor or outdoor Cat ?</legend>
+          <label>
+            <input
+              id="indoore"
+              type="radio"
+              name="indoor-outdoor"
+              value="indoor"
+              checked
+            />
+            indoor
+          </label>
+          <label>
+            <input
+              type="radio"
+              id="outdoor"
+              name="indoor-outdoor"
+              value="outdoor"
+            />
+            outdoor
+          </label>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Whats your Cat Prasnality ?</legend>
+          <label>
+            <input
+              type="checkbox"
+              name="Prasnality"
+              id="loving"
+              value="loving"
+              checked
+            />Loving
+          </label>
+          <label
+            ><input type="checkbox" name="Prasnality" id="lazy" value="lazy" />
+            Lazy</label
+          >
+          <label>
+            <input
+              type="checkbox"
+              name="Prasnality"
+              id="energetic"
+              value="energetic"
+            />Energetic</label
+          >
+        </fieldset>
+        <br />
+
+        <input
+          type="text"
+          name="catphotourl"
+          placeholder="catphotoURL"
+          required
+        />
+        <button type="submit">submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        No Copyright
+        <a href="https://www.freecodecamp.org">Free Code Camp .org</a>
+      </p>
+    </footer>
   </body>
 </html>
