@@ -10,6 +10,7 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail) {
     else {
         viewStr = views / 1000 + "K";
     }
+    
     let html = `<div class="card">
     <div class="image">
         <img src="${thumbnail}"

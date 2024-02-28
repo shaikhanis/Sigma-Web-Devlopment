@@ -5,7 +5,7 @@ function myMove() {
     clearInterval(id);
     id = setInterval(frame, 1);
     function frame() {
-      if (pos == 340) {
+      if (pos == 350) {
         clearInterval(id);
       } else {
         pos++; 
