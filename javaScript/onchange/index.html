@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body id="display-color">
+    <div class="color-picker">
+        <input type="color" id="color-picker" onchange="updatecolor()">
+    </div>
+    <script>
+        function updatecolor (){
+            let color = document.getElementById("color-picker");
+            document.getElementById("display-color").style.backgroundColor = color.value;
+        }
+    </script>
+</body>
+</html>
